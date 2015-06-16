@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EF96B64F-0002-411B-8692-1F93B907BF42</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FirstApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>77F14CA484449F26A4516331D861E050344C1DA1</key>
+		<string>github.com:tuicoding/iPhoneAppDevelopment.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FirstApp/FirstApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>77F14CA484449F26A4516331D861E050344C1DA1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:tuicoding/iPhoneAppDevelopment.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>77F14CA484449F26A4516331D861E050344C1DA1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>77F14CA484449F26A4516331D861E050344C1DA1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iPhoneAppDevelopment</string>
+		</dict>
+	</array>
+</dict>
+</plist>
