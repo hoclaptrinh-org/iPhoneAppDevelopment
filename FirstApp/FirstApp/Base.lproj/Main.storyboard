@@ -56,6 +56,45 @@
             </objects>
             <point key="canvasLocation" x="768" y="137"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="FZI-yT-Y8P">
+            <objects>
+                <viewController id="xPf-AX-XLd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Bg-s6-mey"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uol-IV-6dd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xSM-0H-p4T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RemediosVaro2" translatesAutoresizingMaskIntoConstraints="NO" id="nOB-df-OIZ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ed-jl-uJX">
+                                <rect key="frame" x="339" y="48" width="240" height="128"/>
+                                <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">(1908-1963) Born in Girona, Spain, Remedios Varo Uranga studies art in Madrid before seeking refuge in Paris during the Spanish Civil War. She married the French surrealist poet Benjamin Péret and joined the art group Logicophobiste.
+
+Before the Nazi occupation of France, she fled again to Mexico, where she met Frida Kahlo and Diego Revera. She remained in Latin America for the rest of her life.
+
+Her art focuses on themes of nature, science, and the mystic connection between them. She was influenced by renaissance art, especially the works of Hieronymus Bosch, and used formal construction and a narrative structure.
+
+Her mature paintings, fraught with arguably feminist meaning, are predominantly from the last few years of her life. The paintings of androgynous characters that share Varo’s facial features, mythical creatures, the misty swirls and eerie distortions of perspective are characteristic of Varo’s unique brand of surrealism.
+
+[El gato helecho (The Fern Cat), 1957]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wZO-hF-KIW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1425" y="139"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="n7Q-Vu-bdn">
             <objects>
@@ -78,5 +117,6 @@
         <image name="KaySage1" width="160" height="256"/>
         <image name="LeonoraCarrington1" width="160" height="256"/>
         <image name="RemediosVaro1" width="160" height="256"/>
+        <image name="RemediosVaro2" width="1152" height="1536"/>
     </resources>
 </document>
