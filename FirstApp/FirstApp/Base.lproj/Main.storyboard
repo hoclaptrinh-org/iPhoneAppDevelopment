@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YVA-wT-nPx">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Artists-->
@@ -71,12 +72,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="RemediosVaro2" translatesAutoresizingMaskIntoConstraints="NO" id="nOB-df-OIZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RemediosVaro2" translatesAutoresizingMaskIntoConstraints="NO" id="nOB-df-OIZ">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ed-jl-uJX">
-                                <rect key="frame" x="339" y="48" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ed-jl-uJX">
+                                <rect key="frame" x="354" y="72" width="230" height="270"/>
                                 <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="SLc-TL-Rgd"/>
+                                    <constraint firstAttribute="width" constant="230" id="qMZ-J3-RLg"/>
+                                </constraints>
                                 <string key="text">(1908-1963) Born in Girona, Spain, Remedios Varo Uranga studies art in Madrid before seeking refuge in Paris during the Spanish Civil War. She married the French surrealist poet Benjamin Péret and joined the art group Logicophobiste.
 
 Before the Nazi occupation of France, she fled again to Mexico, where she met Frida Kahlo and Diego Revera. She remained in Latin America for the rest of her life.
@@ -93,8 +98,12 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="nOB-df-OIZ" firstAttribute="bottom" secondItem="Uol-IV-6dd" secondAttribute="top" id="BcF-8C-yEJ"/>
                             <constraint firstAttribute="trailing" secondItem="nOB-df-OIZ" secondAttribute="trailing" id="LXA-X4-JLG"/>
                             <constraint firstItem="nOB-df-OIZ" firstAttribute="leading" secondItem="xSM-0H-p4T" secondAttribute="leading" id="cW5-Nd-CXk"/>
+                            <constraint firstItem="nOB-df-OIZ" firstAttribute="top" secondItem="xSM-0H-p4T" secondAttribute="top" id="jkT-XZ-cLw"/>
+                            <constraint firstItem="8ed-jl-uJX" firstAttribute="trailing" secondItem="xSM-0H-p4T" secondAttribute="trailingMargin" id="qlD-3b-g2E"/>
+                            <constraint firstItem="8ed-jl-uJX" firstAttribute="top" secondItem="0Bg-s6-mey" secondAttribute="bottom" constant="8" symbolic="YES" id="sZs-9Y-mH3"/>
                         </constraints>
                     </view>
                 </viewController>
