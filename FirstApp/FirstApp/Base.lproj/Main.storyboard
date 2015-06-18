@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGf-W9-1LI">
-                                <rect key="frame" x="0.0" y="67" width="296" height="245"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGf-W9-1LI">
+                                <rect key="frame" x="0.0" y="64" width="300" height="280"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Remedios Varo" backgroundImage="RemediosVaro1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -28,23 +28,23 @@
                                     <segue destination="xPf-AX-XLd" kind="show" id="zLq-XS-v3G"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMD-i2-4Gt">
-                                <rect key="frame" x="0.0" y="318" width="296" height="274"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMD-i2-4Gt">
+                                <rect key="frame" x="0.0" y="344" width="300" height="256"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Leonora Carrington" backgroundImage="LeonoraCarrington1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xH-T4-jyd">
-                                <rect key="frame" x="304" y="63" width="280" height="249"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xH-T4-jyd">
+                                <rect key="frame" x="300" y="0.0" width="300" height="344"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Kay Sage" backgroundImage="KaySage1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBQ-TP-aHW">
-                                <rect key="frame" x="310" y="318" width="274" height="274"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBQ-TP-aHW">
+                                <rect key="frame" x="300" y="344" width="300" height="256"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Frida Kahlo" backgroundImage="FridaKahlo1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -53,6 +53,23 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="VBQ-TP-aHW" secondAttribute="bottom" id="1JK-D8-jDh"/>
+                            <constraint firstItem="VBQ-TP-aHW" firstAttribute="top" secondItem="1xH-T4-jyd" secondAttribute="bottom" id="1Z0-ut-c6W"/>
+                            <constraint firstItem="tMD-i2-4Gt" firstAttribute="top" secondItem="rGf-W9-1LI" secondAttribute="bottom" id="2o0-CR-meG"/>
+                            <constraint firstItem="VBQ-TP-aHW" firstAttribute="leading" secondItem="tMD-i2-4Gt" secondAttribute="trailing" id="BLB-R9-YhR"/>
+                            <constraint firstItem="rGf-W9-1LI" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Bfi-dr-klu"/>
+                            <constraint firstItem="tMD-i2-4Gt" firstAttribute="width" secondItem="VBQ-TP-aHW" secondAttribute="width" id="Deu-hv-Nef"/>
+                            <constraint firstItem="1xH-T4-jyd" firstAttribute="leading" secondItem="rGf-W9-1LI" secondAttribute="trailing" id="GQw-cv-LX8"/>
+                            <constraint firstItem="rGf-W9-1LI" firstAttribute="width" secondItem="1xH-T4-jyd" secondAttribute="width" id="HB9-Tr-JEp"/>
+                            <constraint firstAttribute="trailing" secondItem="VBQ-TP-aHW" secondAttribute="trailing" id="Ld0-L7-vZg"/>
+                            <constraint firstItem="rGf-W9-1LI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="So1-Kf-RGK"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="tMD-i2-4Gt" secondAttribute="bottom" id="UcS-Eu-swa"/>
+                            <constraint firstItem="1xH-T4-jyd" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="YFU-7E-Vhg"/>
+                            <constraint firstItem="tMD-i2-4Gt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="dfz-N7-roE"/>
+                            <constraint firstAttribute="trailing" secondItem="1xH-T4-jyd" secondAttribute="trailing" id="r6B-ZI-b1Y"/>
+                            <constraint firstItem="tMD-i2-4Gt" firstAttribute="width" secondItem="VBQ-TP-aHW" secondAttribute="width" id="tec-Ky-yJk"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="XHA-Jc-FON"/>
                 </viewController>
